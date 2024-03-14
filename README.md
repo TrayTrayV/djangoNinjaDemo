@@ -12,9 +12,9 @@ for (linux)
 ```
 $ python -m venv .venv
 
-$ python -m pip install django-ninja
-
 $ source .venv/bin/activate
+
+$ python -m pip install django-ninja
 
 $ cd djangoNinjaDemo
 
@@ -25,11 +25,11 @@ $ python manage.py runserver
 
 for (Windows)
 ```
-PS>  python -m venv .venv
+PS>  python -m venv venv
+
+PS> source .\venv\Scripts\activate
 
 PS> python -m pip install django-ninja
-
-PS> source .venv\Source\activate
 
 PS> cd djangoNinjaDemo
 
