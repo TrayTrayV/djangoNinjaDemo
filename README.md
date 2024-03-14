@@ -25,15 +25,15 @@ $ python manage.py runserver
 
 for (Windows)
 ```
-$ python -m venv .venv
+PS>  python -m venv .venv
 
-$ python -m pip install django-ninja
+PS> python -m pip install django-ninja
 
-$ source .venv\Source\activate
+PS> source .venv\Source\activate
 
-$ cd djangoNinjaDemo
+PS> cd djangoNinjaDemo
 
-$ python manage.py runserver
+PS> python manage.py runserver
 
 ```
 
